@@ -23,8 +23,8 @@ export const experience = [
         ]
     },
     {
-        title: 'Front-end Developer',
-        companyName: 'Venture Haven',
+        title: 'Software Engineer',
+        companyName: 'Bloome',
         date: '10/2022 - 06/2023',
         location: 'Barcelona, Spain',
         tasks: [
