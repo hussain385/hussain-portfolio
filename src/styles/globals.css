@@ -23,6 +23,9 @@
   background: #555;
 }
 
+ul { list-style-type: "-"; padding: 1em; }
+li {padding-inline: 0.5em; padding-top: 0.2em}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

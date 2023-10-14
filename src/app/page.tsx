@@ -7,18 +7,21 @@ import AchievementsComponent from "@/components/achievements.component";
 
 function Home() {
     return (
-        <div className={'w-full'}>
+        <div className={'w-full pt-8'}>
             <TopContainerComponent/>
-            <div className={'flex flex-row justify-between gap-6'}>
-                <div className={'w-3/5'}>
+            <div className={'flex flex-col justify-between gap-6 md:flex-row md:gap-0'}>
+                <div className={'w-full md:w-[55%]'}>
                     <WorkExperienceComponent />
+                    <EducationComponent />
                 </div>
-                <div className={'w-2/5'}>
+                <div className={'w-full md:w-[40%]'}>
                     <SkillComponent />
                     <PersonalProjectComponent />
-                    <EducationComponent />
                     <AchievementsComponent />
                 </div>
+            </div>
+            <div className={'flex justify-center items-center h-10 mt-5'}>
+                <p className={'text-[#7c7c7c] text-sm'}>© Hussain Saifuddin 2023 | All Rights Reserved</p>
             </div>
         </div>
     )
