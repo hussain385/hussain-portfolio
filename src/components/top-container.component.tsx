@@ -14,14 +14,14 @@ const TopContainerComponent = () => {
                     track record of publishing over 10 successful applications on app stores and building dynamic,
                     user-friendly websites. As a versatile full-stack developer, I excel in collaborating with
                     cross-functional teams to deliver comprehensive solutions. My commitment to staying up-to-date with
-                    the latest technology trends ensures that I'm always at the cutting edge of web and mobile
+                    the latest technology trends ensures that I&apos;m always at the cutting edge of web and mobile
                     development. My strengths include robust problem-solving, effective communication, and a natural
                     knack for innovation. Above all, I am deeply committed to delivering exceptional user experiences,
                     making user satisfaction the cornerstone of my work.
                 </p>
             </div>
             <div className={'flex flex-col items-center justify-center md:hidden mt-6 bg-[#eeeeee75] rounded-md pt-3'}>
-                <p className={'font-bold'}>Let's connect 👋🏻: </p>
+                <p className={'font-bold'}>Let&apos;s connect 👋🏻: </p>
                 <div className={'flex-row my-2 flex gap-2'}>
                     {links.map((navigationLinks, key) => (
                         <>
